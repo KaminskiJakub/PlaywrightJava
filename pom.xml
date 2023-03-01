@@ -11,7 +11,9 @@
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+        <extentreports-version>5.0.8</extentreports-version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>com.microsoft.playwright</groupId>
@@ -22,7 +24,11 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.6.1</version>
-            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>${extentreports-version}</version>
         </dependency>
     </dependencies>
 </project>
