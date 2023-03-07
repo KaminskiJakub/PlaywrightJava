@@ -58,6 +58,9 @@ public class PlaywrightFactory {
             case "chrome":
                 tlBrowser.set(getPlaywright().chromium().launch(new BrowserType.LaunchOptions().setChannel("chrome").setHeadless(false)));
                 break;
+            case "edge":
+                tlBrowser.set(getPlaywright().chromium().launch(new BrowserType.LaunchOptions().setChannel("msedge").setHeadless(false)));
+                break;
             default:
                 System.out.println("Provide right browser name");
                 break;

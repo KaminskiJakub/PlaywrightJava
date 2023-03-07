@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="10" failures="1" name="TestSuite" time="24.039" errors="0" skipped="9">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.2+8-LTS-86"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/Users/jakub.kaminski/Repositories/PlaywrightJava"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\jakub.kaminski\Repositories\PlaywrightJava"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.2+8-LTS-86"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\JAKUB~1.KAM\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:/Program Files/Apache/apache-maven-3.8.4/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.2\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\jakub.kaminski\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0;C:\windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.8.4\bin;C:\Program Files\SourceGear\Common\DiffMerge;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Java\jdk-17.0.2\bin;C:\Users\jakub.kaminski\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jakub.kaminski\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:/Program Files/Apache/apache-maven-3.8.4/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:/Program Files/Apache/apache-maven-3.8.4/lib/jansi-native"/>
+    <property name="user.home" value="C:\Users\jakub.kaminski"/>
+    <property name="user.timezone" value="Europe/Warsaw"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="jakub.kaminski"/>
+    <property name="java.class.path" value="C:/Program Files/Apache/apache-maven-3.8.4/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.2"/>
+    <property name="user.language" value="pl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.2"/>
+    <property name="native.encoding" value="Cp1250"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp852"/>
+    <property name="maven.home" value="C:\Program Files\Apache\apache-maven-3.8.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp852"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.qa.opencart.base.BaseTest" name="setup" time="24.039">
+    <failure message="Error {
+  message=&apos;WebSocket error: connect ETIMEDOUT 172.18.0.4:4444
+=========================== logs ===========================
+&lt;selenium&gt; connecting to http://localhost:4444/wd/hub/
+&lt;selenium&gt; connected to sessionId=3080c41bc70178e340a5e7b893b837d2
+&lt;selenium&gt; using selenium v4
+&lt;selenium&gt; retrieved endpoint ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp for sessionId=3080c41bc70178e340a5e7b893b837d2
+&lt;ws connecting&gt; ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp
+&lt;ws error&gt; error connect ETIMEDOUT 172.18.0.4:4444
+&lt;ws connect error&gt; ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp connect ETIMEDOUT 172.18.0.4:4444
+&lt;ws disconnected&gt; ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp code=1006 reason=
+&lt;selenium&gt; disconnecting from sessionId=3080c41bc70178e340a5e7b893b837d2
+&lt;selenium&gt; disconnected from sessionId=3080c41bc70178e340a5e7b893b837d2
+============================================================
+  name=&apos;Error
+  stack=&apos;Error: WebSocket error: connect ETIMEDOUT 172.18.0.4:4444
+=========================== logs ===========================
+&lt;selenium&gt; connecting to http://localhost:4444/wd/hub/
+&lt;selenium&gt; connected to sessionId=3080c41bc70178e340a5e7b893b837d2
+&lt;selenium&gt; using selenium v4
+&lt;selenium&gt; retrieved endpoint ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp for sessionId=3080c41bc70178e340a5e7b893b837d2
+&lt;ws connecting&gt; ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp
+&lt;ws error&gt; error connect ETIMEDOUT 172.18.0.4:4444
+&lt;ws connect error&gt; ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp connect ETIMEDOUT 172.18.0.4:4444
+&lt;ws disconnected&gt; ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp code=1006 reason=
+&lt;selenium&gt; disconnecting from sessionId=3080c41bc70178e340a5e7b893b837d2
+&lt;selenium&gt; disconnected from sessionId=3080c41bc70178e340a5e7b893b837d2
+============================================================
+    at X.&lt;anonymous&gt; (C:\Users\JAKUB~1.KAM\AppData\Local\Temp\playwright-java-2814679447285941336\package\lib\server\transport.js:44:16)
+    at X.r (C:\Users\JAKUB~1.KAM\AppData\Local\Temp\playwright-java-2814679447285941336\package\lib\utilsBundleImpl.js:38:24151)
+    at X.emit (node:events:525:35)
+    at fo (C:\Users\JAKUB~1.KAM\AppData\Local\Temp\playwright-java-2814679447285941336\package\lib\utilsBundleImpl.js:38:36211)
+    at ClientRequest.&lt;anonymous&gt; (C:\Users\JAKUB~1.KAM\AppData\Local\Temp\playwright-java-2814679447285941336\package\lib\utilsBundleImpl.js:38:34667)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+}" type="com.microsoft.playwright.PlaywrightException">com.microsoft.playwright.PlaywrightException: Error {
+  message=&apos;WebSocket error: connect ETIMEDOUT 172.18.0.4:4444
+=========================== logs ===========================
+&lt;selenium&gt; connecting to http://localhost:4444/wd/hub/
+&lt;selenium&gt; connected to sessionId=3080c41bc70178e340a5e7b893b837d2
+&lt;selenium&gt; using selenium v4
+&lt;selenium&gt; retrieved endpoint ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp for sessionId=3080c41bc70178e340a5e7b893b837d2
+&lt;ws connecting&gt; ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp
+&lt;ws error&gt; error connect ETIMEDOUT 172.18.0.4:4444
+&lt;ws connect error&gt; ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp connect ETIMEDOUT 172.18.0.4:4444
+&lt;ws disconnected&gt; ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp code=1006 reason=
+&lt;selenium&gt; disconnecting from sessionId=3080c41bc70178e340a5e7b893b837d2
+&lt;selenium&gt; disconnected from sessionId=3080c41bc70178e340a5e7b893b837d2
+============================================================
+  name=&apos;Error
+  stack=&apos;Error: WebSocket error: connect ETIMEDOUT 172.18.0.4:4444
+=========================== logs ===========================
+&lt;selenium&gt; connecting to http://localhost:4444/wd/hub/
+&lt;selenium&gt; connected to sessionId=3080c41bc70178e340a5e7b893b837d2
+&lt;selenium&gt; using selenium v4
+&lt;selenium&gt; retrieved endpoint ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp for sessionId=3080c41bc70178e340a5e7b893b837d2
+&lt;ws connecting&gt; ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp
+&lt;ws error&gt; error connect ETIMEDOUT 172.18.0.4:4444
+&lt;ws connect error&gt; ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp connect ETIMEDOUT 172.18.0.4:4444
+&lt;ws disconnected&gt; ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp code=1006 reason=
+&lt;selenium&gt; disconnecting from sessionId=3080c41bc70178e340a5e7b893b837d2
+&lt;selenium&gt; disconnected from sessionId=3080c41bc70178e340a5e7b893b837d2
+============================================================
+    at X.&lt;anonymous&gt; (C:\Users\JAKUB~1.KAM\AppData\Local\Temp\playwright-java-2814679447285941336\package\lib\server\transport.js:44:16)
+    at X.r (C:\Users\JAKUB~1.KAM\AppData\Local\Temp\playwright-java-2814679447285941336\package\lib\utilsBundleImpl.js:38:24151)
+    at X.emit (node:events:525:35)
+    at fo (C:\Users\JAKUB~1.KAM\AppData\Local\Temp\playwright-java-2814679447285941336\package\lib\utilsBundleImpl.js:38:36211)
+    at ClientRequest.&lt;anonymous&gt; (C:\Users\JAKUB~1.KAM\AppData\Local\Temp\playwright-java-2814679447285941336\package\lib\utilsBundleImpl.js:38:34667)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+}
+	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:54)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:111)
+	at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:108)
+	at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:102)
+	at com.microsoft.playwright.impl.BrowserTypeImpl.launchImpl(BrowserTypeImpl.java:52)
+	at com.microsoft.playwright.impl.BrowserTypeImpl.lambda$launch$0(BrowserTypeImpl.java:44)
+	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+	at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:87)
+	at com.microsoft.playwright.impl.BrowserTypeImpl.launch(BrowserTypeImpl.java:44)
+	at com.microsoft.playwright.impl.BrowserTypeImpl.launch(BrowserTypeImpl.java:35)
+	at com.qa.opencart.factory.PlaywrightFactory.initBrowser(PlaywrightFactory.java:57)
+	at com.qa.opencart.base.BaseTest.setup(BaseTest.java:26)
+Caused by: com.microsoft.playwright.impl.DriverException: Error {
+  message=&apos;WebSocket error: connect ETIMEDOUT 172.18.0.4:4444
+=========================== logs ===========================
+&lt;selenium&gt; connecting to http://localhost:4444/wd/hub/
+&lt;selenium&gt; connected to sessionId=3080c41bc70178e340a5e7b893b837d2
+&lt;selenium&gt; using selenium v4
+&lt;selenium&gt; retrieved endpoint ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp for sessionId=3080c41bc70178e340a5e7b893b837d2
+&lt;ws connecting&gt; ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp
+&lt;ws error&gt; error connect ETIMEDOUT 172.18.0.4:4444
+&lt;ws connect error&gt; ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp connect ETIMEDOUT 172.18.0.4:4444
+&lt;ws disconnected&gt; ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp code=1006 reason=
+&lt;selenium&gt; disconnecting from sessionId=3080c41bc70178e340a5e7b893b837d2
+&lt;selenium&gt; disconnected from sessionId=3080c41bc70178e340a5e7b893b837d2
+============================================================
+  name=&apos;Error
+  stack=&apos;Error: WebSocket error: connect ETIMEDOUT 172.18.0.4:4444
+=========================== logs ===========================
+&lt;selenium&gt; connecting to http://localhost:4444/wd/hub/
+&lt;selenium&gt; connected to sessionId=3080c41bc70178e340a5e7b893b837d2
+&lt;selenium&gt; using selenium v4
+&lt;selenium&gt; retrieved endpoint ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp for sessionId=3080c41bc70178e340a5e7b893b837d2
+&lt;ws connecting&gt; ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp
+&lt;ws error&gt; error connect ETIMEDOUT 172.18.0.4:4444
+&lt;ws connect error&gt; ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp connect ETIMEDOUT 172.18.0.4:4444
+&lt;ws disconnected&gt; ws://172.18.0.4:4444/session/3080c41bc70178e340a5e7b893b837d2/se/cdp code=1006 reason=
+&lt;selenium&gt; disconnecting from sessionId=3080c41bc70178e340a5e7b893b837d2
+&lt;selenium&gt; disconnected from sessionId=3080c41bc70178e340a5e7b893b837d2
+============================================================
+    at X.&lt;anonymous&gt; (C:\Users\JAKUB~1.KAM\AppData\Local\Temp\playwright-java-2814679447285941336\package\lib\server\transport.js:44:16)
+    at X.r (C:\Users\JAKUB~1.KAM\AppData\Local\Temp\playwright-java-2814679447285941336\package\lib\utilsBundleImpl.js:38:24151)
+    at X.emit (node:events:525:35)
+    at fo (C:\Users\JAKUB~1.KAM\AppData\Local\Temp\playwright-java-2814679447285941336\package\lib\utilsBundleImpl.js:38:36211)
+    at ClientRequest.&lt;anonymous&gt; (C:\Users\JAKUB~1.KAM\AppData\Local\Temp\playwright-java-2814679447285941336\package\lib\utilsBundleImpl.js:38:34667)
+    at ClientRequest.emit (node:events:513:28)
+    at Socket.socketErrorListener (node:_http_client:481:9)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+}
+	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:190)
+	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:170)
+	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:109)
+	... 44 more
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@725bef66
+browser name is : chrome
+</system-out>
+  </testcase>
+  <testcase classname="com.qa.opencart.tests.HomePageTest" name="homePageTitleTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.qa.opencart.tests.HomePageTest" name="homePageURLTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.qa.opencart.tests.HomePageTest" name="searchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.qa.opencart.tests.HomePageTest" name="searchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.qa.opencart.tests.HomePageTest" name="searchTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.qa.opencart.tests.LoginPageTest" name="loginPageNavigationTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.qa.opencart.tests.LoginPageTest" name="forgotPwdLinkExistTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.qa.opencart.tests.LoginPageTest" name="appLoginTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.qa.opencart.base.BaseTest" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
