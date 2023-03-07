@@ -9,6 +9,7 @@ import com.microsoft.playwright.Page;
 import com.qa.opencart.factory.PlaywrightFactory;
 import com.qa.opencart.pages.HomePage;
 import com.qa.opencart.pages.LoginPage;
+import org.testng.annotations.Parameters;
 
 public class BaseTest {
 
@@ -19,10 +20,16 @@ public class BaseTest {
     protected HomePage homePage;
     protected LoginPage loginPage;
 
+    @Parameters({"browser"})
     @BeforeTest
-    public void setup() {
+    public void setup(String browserName) {
         pf = new PlaywrightFactory();
         prop = pf.init_prop();
+
+        if(browserName != null) {
+        prop.setProperty("browser", browserName);
+        }
+
         page = pf.initBrowser(prop);
         homePage = new HomePage(page);
     }
